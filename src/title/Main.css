@@ -1,0 +1,31 @@
+h1 {
+    color: #fff;
+    padding: 0.7rem 0.7rem 0.7rem 2rem;
+    border-radius: 100vh;
+    background-image: -webkit-linear-gradient(right, #f4ff81 0%, #00e676 100%);
+  }
+
+.login {
+    display: inline-block;
+    margin: 20px;
+    float: right;
+    color : black;
+}
+.regi {
+    display: inline-block;
+    margin: 20px;
+    float: right;
+    color : black;
+}
+h2 {
+    color: #fff;
+    padding: 0.7rem 0.7rem 0.7rem 2rem;
+    border-radius: 50vh;
+    background-image: -webkit-linear-gradient(right, #b181ff 0%, #060807 100%);
+}
+.menubar {
+    bottom: 3px;
+    font-size: large;
+    position: relative;
+    left: 80px;
+}
