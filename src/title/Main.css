@@ -1,31 +1,91 @@
-h1 {
-    color: #fff;
-    padding: 0.7rem 0.7rem 0.7rem 2rem;
-    border-radius: 100vh;
-    background-image: -webkit-linear-gradient(right, #f4ff81 0%, #00e676 100%);
-  }
-
 .login {
     display: inline-block;
-    margin: 20px;
+    margin: 25px;
     float: right;
     color : black;
 }
 .regi {
     display: inline-block;
-    margin: 20px;
+    margin: 25px;
     float: right;
     color : black;
+    margin-right: 3%;
 }
-h2 {
-    color: #fff;
-    padding: 0.7rem 0.7rem 0.7rem 2rem;
-    border-radius: 50vh;
-    background-image: -webkit-linear-gradient(right, #b181ff 0%, #060807 100%);
-}
-.menubar {
+.menubarbutton {
     bottom: 3px;
     font-size: large;
     position: relative;
     left: 80px;
+    background: none;
+    border: solid 0px;
+    color : white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.search-bar {
+    margin-top: 15px;
+    margin-left: 85%;
+    width: 250px;
+    height: 27px;
+    border-radius: 5px;
+    border: solid 1px orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    opacity: 1;
+    background: black;
+  }
+.search-bar__input {
+    width: 50px;
+    border: none;
+    -webkit-appearance: none;
+    text-align: center;
+    margin-left: 10px;
+    overflow: auto;
+    z-index: -1;
+    font-size: 15px;
+  }
+.search-bar__input:focus {
+    outline: none;
+    width: 300px;
+    text-align: left;
+  }
+.fa-search {
+    font-size: 15px;
+  }
+.mainbutton {
+    border-radius: 20px 40px 60px 80px;
+    font-size: 1rem;
+    color: white;
+    background: #03C75A;
+    border: solid 0.1px green;
+    cursor: pointer;
+}
+.mainicon {
+    border : solid 0px;
+    background: none;
+    cursor: pointer;
+}
+.slick-slider /*슬라이드 틀 조정*/
+{
+    margin-left: 28%;
+    position:relative;
+    background: none;
+    display:inline-block;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
 }

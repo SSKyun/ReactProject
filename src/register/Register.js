@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
+import { AiOutlineSearch } from "react-icons/ai";
 
 const RegCom2 = () => {
   const [id,setId] = useState('');

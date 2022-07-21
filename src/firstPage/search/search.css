@@ -1,0 +1,32 @@
+.sStyle {
+    border: 1ch solid gray;
+}
+
+.Exe {
+    margin-top: 8px;
+    margin-left: 95%;
+}
+.ipStyle {
+    border: 0px solid;
+    background: none;
+    font-size: xx-large;
+}
+.icStyle{
+    background: none;
+    border: 0px solid;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.Exebutton {
+  border: 0px solid;
+  background: none;
+  font-size: x-large;
+  cursor: pointer;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}

@@ -2,10 +2,8 @@ body {
   margin: 0;
   padding: 0;
   background-repeat: no-repeat;
-  background-image: url("./images/pexels-photo-114979.jpeg"); 
+  background: mintcream;
   background-size: 100%;
   max-width: 100%;
   height: auto;
-
-
 }
