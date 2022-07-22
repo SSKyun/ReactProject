@@ -71,7 +71,7 @@ const Login = () => {
   return (
     <>
       <div style={bStyle}>
-      <Link to='/'><button className='mib'><img src='https://o.remove.bg/downloads/a60c1d9a-f17c-4b4a-89dc-d15af8bd1809/%EC%A0%9C%EB%AA%A9_%EC%97%86%EC%9D%8C-removebg-preview.png' alt=''/></button></Link>
+      <Link to='/'><button className='mib'><img src='https://o.remove.bg/downloads/1ca912a2-f1a2-4164-82e5-7a15a19d51a1/%EC%A0%9C%EB%AA%A9_%EC%97%86%EC%9D%8C-removebg-preview.png' alt=''/></button></Link>
         <div className='menu'>
           <button onClick={()=>toggleMenu()} style={bStyle} className='menubutton'><AiOutlineMenu /></button>
           <Link to='/search'><button onClick={''} style={bStyle} className='menubutton'><AiOutlineSearch /></button></Link>

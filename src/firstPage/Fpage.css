@@ -1,4 +1,9 @@
-.wrapper {
+@media screen and (min-width:959px) and (max-width:1920px){
+  body{
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,8 +20,12 @@
 .mib{
   border: 0px solid;
   background: none;
-  width: 100%; /*중요 */
   cursor: pointer;
+  background-image: url("../images/1234567.png");
+  background-repeat: no-repeat;
+  margin-left: 44%;
+  width: 135px;
+  height: 44px;
 }
 .search-bar {
     margin-left: 85%;
@@ -107,7 +116,7 @@
 }
 .msloginbutton{
     border: solid 0px;
-    background: whitesmoke;
+    background: none;
     font-size: 13px;
     cursor: pointer;
     margin-top: 5rem;
@@ -124,14 +133,19 @@
   border: 0px solid;
   font-size: 17px;
 }
+
 .slidercheck {
   margin-top: 5%;
   width: 80%;
 }
+.CarMove {
+  left :1.7cm;
+}
 
 .slick-slider /*슬라이드 틀 조정*/
 {
-    margin-top: 5%;
+    margin-top: 8%;
+
 
     background: none;
     display: block;
@@ -167,22 +181,244 @@
 }
 .show-menu{
   width: 200px;
-  height: 500px;
+  height: 100%;
   position: absolute;
-  left: 0px;
+  left: 10%;
   transition: 1s;
   border-right: 1pt solid gray;
-  background: whitesmoke;
+  background: mintcream;
+
   }
   
   .hide-menu{
   width: 200px;
-  height: 500px;
+  height: 100%;
   position: absolute;
-  left: -376px;
+  left: -201px;
   transition: 1s;
   border-right: 1pt solid gray;
-  background: whitesmoke;
+
+  }
+  .Xbutton{
+    border-radius: 50%;
+    border: 1pt solid black;
+    background: none;
+    font-size: 17px;
+    margin-left: 50%;
+  }
+  .Xbutton:hover{color: #fff;background-color: #31302e;}
+
+.pshow-menu{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 10%;
+  transition: 1.5s ;
+  margin-top: 3%;
+  }
+
+.phide-menu{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left : -376px;
+  margin-top: 3%;
+  transition: 0.3s;
+  }
+  .downtext{
+    margin-top: 30%;
+    margin-bottom: 30%;
+    color: black;
+    display: flex;
+    text-align: center;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 958px) {
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+  }
+.lastmenu {
+  border-top: 0.5pt solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  font-size: 13px;
+}
+.mib{
+  border: 0px solid ;
+  background: none;
+  cursor: pointer;
+  background-image: url("../images/1234567.png");
+  background-repeat: no-repeat;
+  margin-left: 44%;
+  width: 135px;
+  height: 44px;
+}
+.search-bar {
+    margin-left: 85%;
+    width: 220px;
+    height: 27px;
+    border-radius: 5px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    opacity: 1;
+    background: white;
+  }
+.search-bar__input {
+    width: 50px;
+    border: none;
+    -webkit-appearance: none;
+    text-align: center;
+    margin-left: 10px;
+    overflow: auto;
+    z-index: -1;
+    font-size: 15px;
+  }
+.search-bar__input:focus {
+    outline: none;
+    width: 300px;
+    text-align: left;
+  }
+.fa-search {
+    font-size: 15px;
+  }
+.menu {
+    border-bottom: 0.5pt solid gray;
+    font-size: x-large;
+}
+.menubutton {
+    border: solid 0px;
+    background: none;
+    font-size: large;
+    cursor: pointer;
+}
+.pmbutton {
+    border-left: 0px solid;
+    border-right: 0px solid;
+    border-top: 0px solid;
+    border-bottom: 1px solid gray;
+    width: 200px;
+    background: none;
+    font-size: 13px;
+    cursor: pointer;
+    height: 35px;
+}
+.pmbutton:hover{color:#fff;}
+.hover1:hover{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDL5FkNfUI9wCKmSapQgFzGQnsXihHDISSbheINWukDxjEjcB5NmCMLt5qS6okC8TtaII&usqp=CAU);
+  background-size: 210px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+.hover2:hover{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT94qCaIkWX2kt07R8ZLhZkZtE90r_T-bezEzdEgn2ikF4DopQygZKUg3IoBy6a8sOkbwc&usqp=CAU);
+  background-size: 210px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+.hover3:hover{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj7RfupTWy9XNEK0bAgozCSNBWRzAWfv3mXiM9Yt56o7mm6KHEsw68DHFTXcJLMF9lydM&usqp=CAU);
+  background-size: 210px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+.menusidebutton-h{
+    border: solid 0px;
+    background: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: 1s;
+}
+.menusidebutton-o{
+  border: solid 0px;
+  background: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 9rem;
+  transition: 1s;
+}
+.msloginbutton{
+    padding-left: 35px;
+    border: solid 0px;
+    background: none;
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: 5rem;
+}
+.sidebutton {
+    border: solid 0px;
+    background: none;
+    font-size: large;
+    cursor: pointer;
+}
+.light {
+  background: mintcream;
+  color: #31302e;
+  border: 0px solid;
+  font-size: 17px;
+}
+.slidercheck {
+  margin-top: 5%;
+  width: 80%;
+}
+.CarMove {
+  right: 1cm;
+}
+.slick-slider /*슬라이드 틀 조정*/
+{
+  position: relative;
+  margin-top: 3.5%;
+
+  
+}
+.backimage{
+  margin-top: 5%;
+  width: 100%;
+  opacity: 0.5; 
+}
+.fixedbutton {
+  position : fixed;
+  bottom: 2%;
+  right : 1rem;
+  border: 0px solid;
+  padding: 10;
+  border-radius: 100;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  background:mediumpurple;
+}
+.show-menu{
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  transition: 1s;
+  border-right: 0.5pt solid gray;
+  background: mintcream;
+
+  }
+  
+  .hide-menu{
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  left: -201px;
+  transition: 1s;
+  border-right: 0.5pt solid gray;
   }
 
 .pshow-menu{
@@ -202,3 +438,20 @@
   margin-top: 5%;
   transition: 0.3s;
   }
+  .Xbutton{
+    border-radius: 50%;
+    border: 1pt solid black;
+    background: none;
+    font-size: 17px;
+    margin-left: 50%;
+  }
+  .Xbutton:hover{color: #fff;background-color: #31302e;}
+
+  .downtext{
+    margin-top: 30%;
+    margin-bottom: 30%;
+    color: black;
+    display: flex;
+    text-align: center;
+  }
+}

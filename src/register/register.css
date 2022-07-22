@@ -1,0 +1,51 @@
+@media screen and (max-width: 958px) {
+
+    .GuiChan {
+        margin-top: 15%;
+        justify-content: center;
+        align-items: center;
+        min-height: 10vh;
+        font-size: 15px;
+        text-align: center;
+        border: 0.5px solid gray;
+        width: 25%;
+        background-color: white;
+        height: 140px;
+        margin-left: 38.5%;
+    }
+    .lastmenu-regi{
+        margin-top: 52%;
+        border-top: 0.5pt solid gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 10vh;
+        font-size: 13px;
+    }
+}
+@media screen and (min-width:959px) and (max-width:1920px){
+
+    .GuiChan {
+        margin-top: 15%;
+        justify-content: center;
+        align-items: center;
+        min-height: 10vh;
+        font-size: 15px;
+        text-align: center;
+        border: 0.5px solid gray;
+        width: 15%;
+        background-color: white;
+        height: 140px;
+        margin-left: 41%;
+    }
+    .lastmenu-regi{
+        margin-top: 27%;
+        border-top: 0.5pt solid gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 10vh;
+        font-size: 13px;
+    }
+
+}
